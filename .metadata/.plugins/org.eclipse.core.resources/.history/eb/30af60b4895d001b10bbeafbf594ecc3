@@ -1,0 +1,5 @@
+{trim=false}
+|FieldValue|Meta:|Story_TCName|Iteration_Number|Service_Name|mccId|mcomUser|activeFile|externalId|responseCode|responseMessage|
+|externalId=5256392|@FITREGITFR @S1483952|S1483952_TC2055066|1|FIT/read|smtm||TRUE|5256392|0|READ SUCCESSFUL.|
+|externalId=9999900720|@FITREGITFR @S1483952|S1483952_TC2055066|2|FIT/read|smtm||TRUE|9999900720|0|READ SUCCESSFUL.|
+|externalId=9999900722|@FITREGITFR @S1483952|S1483952_TC2055066|3|FIT/read|smtm||TRUE|9999900722|0|READ SUCCESSFUL.|

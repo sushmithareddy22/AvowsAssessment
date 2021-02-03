@@ -1,0 +1,49 @@
+package com.ecommerce.application.pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+public class LoginPage {
+	
+	WebDriver driver;
+	
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	
+	@FindBy(how=How.NAME, using = "")
+	WebElement txt_Username;
+	
+	@FindBy(how=How.NAME, using = "")
+	WebElement txt_Password;
+	
+	@FindBy(how=How.NAME, using = "")
+	WebElement btn_Login;
+	
+	
+	//Methods
+	public void setUsername(String username) {
+		txt_Username.sendKeys(username);
+	}
+	
+	public void setPassword(String password) {
+		txt_Password.sendKeys(password);
+	}
+	
+	public void clickLogin() {
+		btn_Login.click();
+	}
+	
+	//Implementation Method
+	public void login(String username, String password) {
+		
+		setUsername(username);
+		setPassword(password);
+		clickLogin();
+		
+		
+	}
+}

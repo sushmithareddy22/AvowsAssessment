@@ -1,0 +1,102 @@
+package com.students.logging;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.students.model.StudentPOJO;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+import java.util.ArrayList;
+
+public class LoggingRequestValues {
+
+	@BeforeClass
+	public static void init() {
+
+		RestAssured.baseURI = "http://localhost";
+		RestAssured.port=8080;
+		RestAssured.basePath="/student";
+
+	}
+
+	/*
+	 * This test is to print out the request headers
+	 */
+	@Test
+	public void test001() {
+
+		System.out.println("----------Printing Request headers------------");
+		given()
+		.param("programme", "CSE")
+		.param("limit", "1")
+		.log()
+		.parameters()
+		.when()
+		.get("/list")
+		.then()
+		.statusCode(200);
+
+	}
+
+	@Test
+	public void test002() {
+
+		System.out.println("----------Printing Request Body------------");
+		ArrayList<String> courses = new ArrayList<>();
+
+		courses.add("JAVA");
+		courses.add("Python");
+		courses.add("R Language");
+
+		StudentPOJO student = new StudentPOJO();
+
+		student.setFirstName("Sushmitha");
+		student.setLastName("Patlolla");
+		student.setEmail("sushmitha.p@gmail.com");
+		student.setProgramme("CSE");
+		student.setCourses(courses);
+
+		given()
+		.contentType(ContentType.JSON)
+		.log().body()
+		.when()
+		.body(student)
+		.post()
+		.then().statusCode(201);
+
+	}
+
+
+	@Test
+	public void test003() {
+
+		System.out.println("----------Printing Request Details------------");
+		ArrayList<String> courses = new ArrayList<>();
+
+		courses.add("JAVA");
+		courses.add("Python");
+		courses.add("R Language");
+
+		StudentPOJO student = new StudentPOJO();
+
+		student.setFirstName("Sushmitha");
+		student.setLastName("Patlolla");
+		student.setEmail("sushmitha.p@gmail.com");
+		student.setProgramme("CSE");
+		student.setCourses(courses);
+
+		given()
+		.contentType(ContentType.JSON)
+		.log().all()
+		.when()
+		.body(student)
+		.post()
+		.then().statusCode(201);
+
+	}
+}

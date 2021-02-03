@@ -1,0 +1,3 @@
+base.json.url=http://ech-10-157-153-165.mastercard.int:25003/nics-api/api-services
+environment=dev
+testing.type=functional

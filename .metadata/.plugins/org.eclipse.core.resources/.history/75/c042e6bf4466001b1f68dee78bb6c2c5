@@ -1,0 +1,29 @@
+package com.ecommerce.application.testcases;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.ecommerce.application.pageObjects.LoginPage;
+
+public class TC_ProductCheckout {
+	
+	String url = "https://www.flipkart.com/";
+	
+	@Test
+	public void t_01_ecommerce_checkout() {
+		
+		ChromeDriver driver = new ChromeDriver();
+		driver.get(url);
+		
+		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+		login.login("abhishek.tutika@gmail.com", "svignan999");
+		
+		
+	
+		
+	}
+
+}

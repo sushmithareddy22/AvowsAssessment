@@ -1,0 +1,111 @@
+23 Jan 2021 08:40:48,387 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Endpoint: http://ech-10-157-148-71.mastercard.int:25003/nics-api/api-services/FIT/read
+23 Jan 2021 08:40:48,387 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Headers: [Content-Type: application/json, mccId: smtm, mcomUser: ]
+23 Jan 2021 08:40:48,450 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 110,Chunked: false]
+23 Jan 2021 08:40:48,450 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: {"record":{"externalId":"5256392","issuerInstitutionIdNumber":null,"key":null},"header":{"activeFile":"TRUE"}}
+23 Jan 2021 08:40:48,466 DEBUG: org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+23 Jan 2021 08:40:48,481 DEBUG: org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+23 Jan 2021 08:40:48,481 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+23 Jan 2021 08:40:48,497 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:40:48,497 DEBUG: org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://ech-10-157-148-71.mastercard.int:25003
+23 Jan 2021 08:40:48,497 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to ech-10-157-148-71.mastercard.int/10.157.148.71:25003
+23 Jan 2021 08:40:48,497 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.157.146.245:53789<->10.157.148.71:25003
+23 Jan 2021 08:40:48,497 DEBUG: org.apache.http.impl.execchain.MainClientExec - Executing request POST /nics-api/api-services/FIT/read HTTP/1.1
+23 Jan 2021 08:40:48,497 DEBUG: org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+23 Jan 2021 08:40:48,497 DEBUG: org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+23 Jan 2021 08:40:48,841 DEBUG: org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+23 Jan 2021 08:40:48,841 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://ech-10-157-148-71.mastercard.int:25003] can be kept alive indefinitely
+23 Jan 2021 08:40:48,841 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:40:48,841 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Code: HTTP/1.1 200 OK
+23 Jan 2021 08:40:48,841 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Media Type: Content-Type: application/json
+23 Jan 2021 08:40:48,841 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Body: {  "response": {    "responseCode": 2,    "responseMessage": "Record Not Found",    "success": false  }}
+23 Jan 2021 08:40:49,028 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Endpoint: http://ech-10-157-148-71.mastercard.int:25003/nics-api/api-services/FIT/read
+23 Jan 2021 08:40:49,028 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Headers: [Content-Type: application/json, mccId: smtm, mcomUser: ]
+23 Jan 2021 08:40:49,028 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 113,Chunked: false]
+23 Jan 2021 08:40:49,028 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: {"record":{"externalId":"9999900720","issuerInstitutionIdNumber":null,"key":null},"header":{"activeFile":"TRUE"}}
+23 Jan 2021 08:40:49,044 DEBUG: org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+23 Jan 2021 08:40:49,044 DEBUG: org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+23 Jan 2021 08:40:49,044 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+23 Jan 2021 08:40:49,044 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:40:49,044 DEBUG: org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://ech-10-157-148-71.mastercard.int:25003
+23 Jan 2021 08:40:49,044 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to ech-10-157-148-71.mastercard.int/10.157.148.71:25003
+23 Jan 2021 08:40:49,044 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.157.146.245:53790<->10.157.148.71:25003
+23 Jan 2021 08:40:49,044 DEBUG: org.apache.http.impl.execchain.MainClientExec - Executing request POST /nics-api/api-services/FIT/read HTTP/1.1
+23 Jan 2021 08:40:49,044 DEBUG: org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+23 Jan 2021 08:40:49,044 DEBUG: org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+23 Jan 2021 08:40:49,263 DEBUG: org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+23 Jan 2021 08:40:49,263 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 1][route: {}->http://ech-10-157-148-71.mastercard.int:25003] can be kept alive indefinitely
+23 Jan 2021 08:40:49,263 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:40:49,263 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Code: HTTP/1.1 200 OK
+23 Jan 2021 08:40:49,263 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Media Type: Content-Type: application/json
+23 Jan 2021 08:40:49,263 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Body: {  "response": {    "responseCode": 2,    "responseMessage": "Record Not Found",    "success": false  }}
+23 Jan 2021 08:40:49,309 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Endpoint: http://ech-10-157-148-71.mastercard.int:25003/nics-api/api-services/FIT/read
+23 Jan 2021 08:40:49,309 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Headers: [Content-Type: application/json, mccId: smtm, mcomUser: ]
+23 Jan 2021 08:40:49,309 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 113,Chunked: false]
+23 Jan 2021 08:40:49,309 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: {"record":{"externalId":"9999900722","issuerInstitutionIdNumber":null,"key":null},"header":{"activeFile":"TRUE"}}
+23 Jan 2021 08:40:49,309 DEBUG: org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+23 Jan 2021 08:40:49,309 DEBUG: org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+23 Jan 2021 08:40:49,309 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+23 Jan 2021 08:40:49,309 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:40:49,309 DEBUG: org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://ech-10-157-148-71.mastercard.int:25003
+23 Jan 2021 08:40:49,309 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to ech-10-157-148-71.mastercard.int/10.157.148.71:25003
+23 Jan 2021 08:40:49,309 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.157.146.245:53791<->10.157.148.71:25003
+23 Jan 2021 08:40:49,309 DEBUG: org.apache.http.impl.execchain.MainClientExec - Executing request POST /nics-api/api-services/FIT/read HTTP/1.1
+23 Jan 2021 08:40:49,309 DEBUG: org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+23 Jan 2021 08:40:49,309 DEBUG: org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+23 Jan 2021 08:40:49,419 DEBUG: org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+23 Jan 2021 08:40:49,419 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 2][route: {}->http://ech-10-157-148-71.mastercard.int:25003] can be kept alive indefinitely
+23 Jan 2021 08:40:49,419 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:40:49,419 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Code: HTTP/1.1 200 OK
+23 Jan 2021 08:40:49,419 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Media Type: Content-Type: application/json
+23 Jan 2021 08:40:49,419 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Body: {  "response": {    "responseCode": 2,    "responseMessage": "Record Not Found",    "success": false  }}
+23 Jan 2021 08:40:49,669 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,700 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:40:49,794 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,794 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:40:49,794 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,794 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:40:49,794 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,794 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:40:49,794 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,794 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:40:49,809 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,809 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:40:49,809 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,809 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:40:49,809 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,809 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:40:49,809 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,809 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:40:49,809 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,809 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:40:49,825 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,825 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,841 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:40:49,856 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-reports-with-totals.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,856 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-reports-with-totals.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-reports-with-totals.ftl"
+23 Jan 2021 08:40:49,888 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-views.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:40:49,888 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-views.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-views.ftl"
+23 Jan 2021 08:40:50,216 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+23 Jan 2021 08:40:50,216 DEBUG: org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
+23 Jan 2021 08:40:50,216 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+23 Jan 2021 08:40:50,231 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+23 Jan 2021 08:40:50,231 DEBUG: org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+23 Jan 2021 08:40:50,247 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+23 Jan 2021 08:40:50,247 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+23 Jan 2021 08:40:50,247 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+23 Jan 2021 08:40:50,247 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+23 Jan 2021 08:40:50,247 DEBUG: org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: Close connection
+23 Jan 2021 08:40:50,247 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down

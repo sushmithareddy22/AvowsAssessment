@@ -1,0 +1,65 @@
+23 Jan 2021 08:34:25,697 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Endpoint: http://ech-10-157-148-71.mastercard.int:25003/nics-api/api-services/FIT/read
+23 Jan 2021 08:34:25,712 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Headers: [Content-Type: application/json, mccId: smtm, mcomUser: ]
+23 Jan 2021 08:34:25,775 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 114,Chunked: false]
+23 Jan 2021 08:34:25,775 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: {"record":{"externalId":"9999900726","issuerInstitutionIdNumber":null,"key":null},"header":{"activeFile":"FALSE"}}
+23 Jan 2021 08:34:25,791 DEBUG: org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+23 Jan 2021 08:34:25,806 DEBUG: org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+23 Jan 2021 08:34:25,806 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+23 Jan 2021 08:34:25,822 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:34:25,822 DEBUG: org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://ech-10-157-148-71.mastercard.int:25003
+23 Jan 2021 08:34:25,822 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to ech-10-157-148-71.mastercard.int/10.157.148.71:25003
+23 Jan 2021 08:34:25,837 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.157.146.245:53780<->10.157.148.71:25003
+23 Jan 2021 08:34:25,837 DEBUG: org.apache.http.impl.execchain.MainClientExec - Executing request POST /nics-api/api-services/FIT/read HTTP/1.1
+23 Jan 2021 08:34:25,837 DEBUG: org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+23 Jan 2021 08:34:25,837 DEBUG: org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+23 Jan 2021 08:34:25,916 DEBUG: org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+23 Jan 2021 08:34:25,916 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://ech-10-157-148-71.mastercard.int:25003] can be kept alive indefinitely
+23 Jan 2021 08:34:25,916 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://ech-10-157-148-71.mastercard.int:25003][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:34:25,916 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Code: HTTP/1.1 200 OK
+23 Jan 2021 08:34:25,916 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Media Type: Content-Type: application/json
+23 Jan 2021 08:34:25,916 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Body: {  "response": {    "responseCode": 2,    "responseMessage": "Record Not Found",    "success": false  }}
+23 Jan 2021 08:34:26,337 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,337 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:34:26,478 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,478 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:34:26,509 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,509 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:34:26,509 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,525 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:34:26,541 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,541 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:34:26,541 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,541 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:34:26,541 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,541 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-reports-with-totals.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,556 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-reports-with-totals.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-reports-with-totals.ftl"
+23 Jan 2021 08:34:26,634 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-views.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:34:26,634 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-views.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-views.ftl"
+23 Jan 2021 08:34:26,947 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+23 Jan 2021 08:34:26,947 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+23 Jan 2021 08:34:26,947 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+23 Jan 2021 08:34:26,947 DEBUG: org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+23 Jan 2021 08:34:26,947 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down

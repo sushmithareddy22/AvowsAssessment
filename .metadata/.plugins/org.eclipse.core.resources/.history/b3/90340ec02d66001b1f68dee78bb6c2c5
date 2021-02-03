@@ -1,0 +1,5 @@
+package com.ecommerce.application.utils;
+
+public class BrowserManager {
+
+}

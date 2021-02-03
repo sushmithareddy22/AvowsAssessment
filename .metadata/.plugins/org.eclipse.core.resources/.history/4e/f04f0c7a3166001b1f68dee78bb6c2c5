@@ -1,0 +1,23 @@
+package com.ecommerce.application.testcases;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class TC_ProductCheckout {
+	
+	String url = "https://www.flipkart.com/";
+	
+	@Test
+	public void t_01_ecommerce_checkout() {
+		
+		ChromeDriver driver = new ChromeDriver();
+		driver.get(url);
+		
+		
+	
+		
+	}
+
+}

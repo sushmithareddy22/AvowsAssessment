@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+		<item value="git.eclipse.org"/>
+		<item value="globalrepository.mclocal.int"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://globalrepository.mclocal.int/stash/scm/ss/smtm-webui-new-mtaf.git"/>
+	</list>
+</section>

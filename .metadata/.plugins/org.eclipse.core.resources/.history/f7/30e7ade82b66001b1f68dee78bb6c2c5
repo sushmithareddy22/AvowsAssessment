@@ -1,0 +1,10 @@
+package com.ecommerce.application.testcases;
+
+public class TC_ProductCheckout {
+	
+	@Test
+	public void t_01_ecommerce_checkout() {
+		
+	}
+
+}

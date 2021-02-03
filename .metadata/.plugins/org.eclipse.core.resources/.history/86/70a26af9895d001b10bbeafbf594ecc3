@@ -1,0 +1,120 @@
+23 Jan 2021 08:43:28,924 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Endpoint: https://esb.mclocal.int:30202/nics-api-internal/api-services/uat/FIT/read
+23 Jan 2021 08:43:28,924 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Headers: [Content-Type: application/json, mccId: smtm, mcomUser: ]
+23 Jan 2021 08:43:29,017 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 110,Chunked: false]
+23 Jan 2021 08:43:29,017 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: {"record":{"externalId":"5256392","issuerInstitutionIdNumber":null,"key":null},"header":{"activeFile":"TRUE"}}
+23 Jan 2021 08:43:29,017 DEBUG: org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+23 Jan 2021 08:43:29,033 DEBUG: org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+23 Jan 2021 08:43:29,033 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://esb.mclocal.int:30202][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+23 Jan 2021 08:43:29,049 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://esb.mclocal.int:30202][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:43:29,049 DEBUG: org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://esb.mclocal.int:30202
+23 Jan 2021 08:43:29,064 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.158.151.140:30202
+23 Jan 2021 08:43:29,064 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.158.151.140:30202 with timeout 0
+23 Jan 2021 08:43:50,125 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connect to esb.mclocal.int/10.158.151.140:30202 timed out. Connection will be retried using another IP address
+23 Jan 2021 08:43:50,125 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.154.151.140:30202
+23 Jan 2021 08:43:50,125 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.154.151.140:30202 with timeout 0
+23 Jan 2021 08:44:11,145 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connect to esb.mclocal.int/10.154.151.140:30202 timed out. Connection will be retried using another IP address
+23 Jan 2021 08:44:11,145 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.94.144.133:30202
+23 Jan 2021 08:44:11,145 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.94.144.133:30202 with timeout 0
+23 Jan 2021 08:44:32,150 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connect to esb.mclocal.int/10.94.144.133:30202 timed out. Connection will be retried using another IP address
+23 Jan 2021 08:44:32,150 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.150.151.140:30202
+23 Jan 2021 08:44:32,150 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.150.151.140:30202 with timeout 0
+23 Jan 2021 08:44:53,156 DEBUG: org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Shutdown connection
+23 Jan 2021 08:44:53,156 DEBUG: org.apache.http.impl.execchain.MainClientExec - Connection discarded
+23 Jan 2021 08:44:53,156 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://esb.mclocal.int:30202][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+23 Jan 2021 08:44:53,156 ERROR: com.mastercard.testing.bdd.rest.implementation.service.RestService - IOException: Connect to esb.mclocal.int:30202 [esb.mclocal.int/10.158.151.140, esb.mclocal.int/10.154.151.140, esb.mclocal.int/10.94.144.133, esb.mclocal.int/10.150.151.140] failed: Connection timed out: connect
+23 Jan 2021 08:44:53,187 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Endpoint: https://esb.mclocal.int:30202/nics-api-internal/api-services/uat/FIT/read
+23 Jan 2021 08:44:53,187 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Headers: [Content-Type: application/json, mccId: smtm, mcomUser: ]
+23 Jan 2021 08:44:53,187 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 113,Chunked: false]
+23 Jan 2021 08:44:53,187 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: {"record":{"externalId":"9999900720","issuerInstitutionIdNumber":null,"key":null},"header":{"activeFile":"TRUE"}}
+23 Jan 2021 08:44:53,187 DEBUG: org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+23 Jan 2021 08:44:53,187 DEBUG: org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+23 Jan 2021 08:44:53,187 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://esb.mclocal.int:30202][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+23 Jan 2021 08:44:53,187 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {s}->https://esb.mclocal.int:30202][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:44:53,187 DEBUG: org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://esb.mclocal.int:30202
+23 Jan 2021 08:44:53,187 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.158.151.140:30202
+23 Jan 2021 08:44:53,187 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.158.151.140:30202 with timeout 0
+23 Jan 2021 08:45:14,223 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connect to esb.mclocal.int/10.158.151.140:30202 timed out. Connection will be retried using another IP address
+23 Jan 2021 08:45:14,223 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.154.151.140:30202
+23 Jan 2021 08:45:14,223 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.154.151.140:30202 with timeout 0
+23 Jan 2021 08:45:35,266 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connect to esb.mclocal.int/10.154.151.140:30202 timed out. Connection will be retried using another IP address
+23 Jan 2021 08:45:35,266 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.94.144.133:30202
+23 Jan 2021 08:45:35,266 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.94.144.133:30202 with timeout 0
+23 Jan 2021 08:45:56,300 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connect to esb.mclocal.int/10.94.144.133:30202 timed out. Connection will be retried using another IP address
+23 Jan 2021 08:45:56,300 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.150.151.140:30202
+23 Jan 2021 08:45:56,300 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.150.151.140:30202 with timeout 0
+23 Jan 2021 08:46:17,318 DEBUG: org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Shutdown connection
+23 Jan 2021 08:46:17,318 DEBUG: org.apache.http.impl.execchain.MainClientExec - Connection discarded
+23 Jan 2021 08:46:17,318 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {s}->https://esb.mclocal.int:30202][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+23 Jan 2021 08:46:17,318 ERROR: com.mastercard.testing.bdd.rest.implementation.service.RestService - IOException: Connect to esb.mclocal.int:30202 [esb.mclocal.int/10.158.151.140, esb.mclocal.int/10.154.151.140, esb.mclocal.int/10.94.144.133, esb.mclocal.int/10.150.151.140] failed: Connection timed out: connect
+23 Jan 2021 08:46:17,365 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Endpoint: https://esb.mclocal.int:30202/nics-api-internal/api-services/uat/FIT/read
+23 Jan 2021 08:46:17,365 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Headers: [Content-Type: application/json, mccId: smtm, mcomUser: ]
+23 Jan 2021 08:46:17,365 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 113,Chunked: false]
+23 Jan 2021 08:46:17,365 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: {"record":{"externalId":"9999900722","issuerInstitutionIdNumber":null,"key":null},"header":{"activeFile":"TRUE"}}
+23 Jan 2021 08:46:17,365 DEBUG: org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+23 Jan 2021 08:46:17,365 DEBUG: org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+23 Jan 2021 08:46:17,365 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://esb.mclocal.int:30202][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+23 Jan 2021 08:46:17,365 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {s}->https://esb.mclocal.int:30202][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+23 Jan 2021 08:46:17,365 DEBUG: org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://esb.mclocal.int:30202
+23 Jan 2021 08:46:17,365 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.158.151.140:30202
+23 Jan 2021 08:46:17,365 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.158.151.140:30202 with timeout 0
+23 Jan 2021 08:46:38,401 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connect to esb.mclocal.int/10.158.151.140:30202 timed out. Connection will be retried using another IP address
+23 Jan 2021 08:46:38,401 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.154.151.140:30202
+23 Jan 2021 08:46:38,401 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.154.151.140:30202 with timeout 0
+23 Jan 2021 08:46:59,434 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connect to esb.mclocal.int/10.154.151.140:30202 timed out. Connection will be retried using another IP address
+23 Jan 2021 08:46:59,434 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.94.144.133:30202
+23 Jan 2021 08:46:59,434 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.94.144.133:30202 with timeout 0
+23 Jan 2021 08:47:20,454 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connect to esb.mclocal.int/10.94.144.133:30202 timed out. Connection will be retried using another IP address
+23 Jan 2021 08:47:20,454 DEBUG: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to esb.mclocal.int/10.150.151.140:30202
+23 Jan 2021 08:47:20,454 DEBUG: org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to esb.mclocal.int/10.150.151.140:30202 with timeout 0
+23 Jan 2021 08:47:41,491 DEBUG: org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: Shutdown connection
+23 Jan 2021 08:47:41,491 DEBUG: org.apache.http.impl.execchain.MainClientExec - Connection discarded
+23 Jan 2021 08:47:41,491 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {s}->https://esb.mclocal.int:30202][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+23 Jan 2021 08:47:41,491 ERROR: com.mastercard.testing.bdd.rest.implementation.service.RestService - IOException: Connect to esb.mclocal.int:30202 [esb.mclocal.int/10.158.151.140, esb.mclocal.int/10.154.151.140, esb.mclocal.int/10.94.144.133, esb.mclocal.int/10.150.151.140] failed: Connection timed out: connect
+23 Jan 2021 08:47:41,663 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,678 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:47:41,788 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,788 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,803 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:47:41,819 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,819 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:47:41,819 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,819 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:47:41,819 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,819 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:47:41,819 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,819 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:47:41,819 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,819 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:47:41,834 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,834 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:47:41,834 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,834 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:47:41,834 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,834 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-report-decorated.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-report-decorated.ftl"
+23 Jan 2021 08:47:41,834 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/sh.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,834 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/sh.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/sh.ftl"
+23 Jan 2021 08:47:41,834 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-reports-with-totals.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,834 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-reports-with-totals.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-reports-with-totals.ftl"
+23 Jan 2021 08:47:41,881 DEBUG: freemarker.cache - Could not find template in cache, creating new one; id=["ftl/jbehave-views.ftl"["en_US",Cp1252,parsed] ]
+23 Jan 2021 08:47:41,881 DEBUG: freemarker.cache - Compiling FreeMarker template "ftl/jbehave-views.ftl"["en_US",Cp1252,parsed]  from "jar:file:/C:/Users/dc-user/.m2/repository/org/jbehave/jbehave-core/3.9.5/jbehave-core-3.9.5.jar!/ftl/jbehave-views.ftl"
+23 Jan 2021 08:47:42,209 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+23 Jan 2021 08:47:42,225 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+23 Jan 2021 08:47:42,225 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+23 Jan 2021 08:47:42,225 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+23 Jan 2021 08:47:42,225 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+23 Jan 2021 08:47:42,225 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+23 Jan 2021 08:47:42,225 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+23 Jan 2021 08:47:42,225 DEBUG: org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down

@@ -1,0 +1,11 @@
+23 Jan 2021 08:40:48,387 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Endpoint: http://ech-10-157-148-71.mastercard.int:25003/nics-api/api-services/FIT/read
+23 Jan 2021 08:40:48,387 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Headers: [Content-Type: application/json, mccId: smtm, mcomUser: ]
+23 Jan 2021 08:40:48,450 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: [Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 110,Chunked: false]
+23 Jan 2021 08:40:48,450 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Request Payload: {"record":{"externalId":"5256392","issuerInstitutionIdNumber":null,"key":null},"header":{"activeFile":"TRUE"}}
+23 Jan 2021 08:40:48,841 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Code: HTTP/1.1 200 OK
+23 Jan 2021 08:40:48,841 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Media Type: Content-Type: application/json
+23 Jan 2021 08:40:48,841 INFO : com.mastercard.testing.bdd.rest.implementation.service.RestService - Response<T> Body: 
+ {  "response": {    "responseCode": 2,
+    "responseMessage": "Record Not Found",
+    "success": false  }}
+,

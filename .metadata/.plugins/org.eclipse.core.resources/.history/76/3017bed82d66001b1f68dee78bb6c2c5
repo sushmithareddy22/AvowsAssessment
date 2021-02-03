@@ -1,0 +1,12 @@
+package com.ecommerce.application.utils;
+
+import org.openqa.selenium.WebDriver;
+
+public class BrowserManager {
+	
+	public static WebDriver getdriver() {
+		
+		
+	}
+
+}

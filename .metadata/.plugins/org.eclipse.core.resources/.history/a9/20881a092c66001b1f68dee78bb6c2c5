@@ -1,0 +1,12 @@
+package com.ecommerce.application.testcases;
+
+import org.testng.annotations.Test;
+
+public class TC_ProductCheckout {
+	
+	@Test
+	public void t_01_ecommerce_checkout() {
+		
+	}
+
+}

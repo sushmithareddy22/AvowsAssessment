@@ -1,0 +1,42 @@
+package com.ecommerce.application.pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.testng.Reporter;
+
+public class HomePage {
+
+	WebDriver driver;
+
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	@FindBy(how=How.XPATH, using = ".//input[@title='Search for products, brands and more']")
+	WebElement txt_searchProduct;
+
+	@FindBy(how=How.XPATH, using = ".//button[@type='submit']")
+	WebElement btn_Search;
+
+	//Methods
+	public void setProductname(String productName) {
+		txt_searchProduct.sendKeys(productName);
+		Reporter.log("Productname entered is :"+ productName);
+	}
+
+	public void clickSearch() {
+		btn_Search.click();
+	}
+
+	//Implementation Method
+	public void searchProduct(String productName) {
+
+		setProductname(productName);
+		clickSearch();
+
+
+	}
+}
+
